@@ -33,3 +33,12 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+# 指定主题路径
+THEME = 'themes/elegant'
+
+# 启用 typogrify（如果安装了）
+TYPOGRIFY = True
+
+# Elegant 主题的额外选项（可选，根据需要添加）
+# DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives']
+# PAGINATED_TEMPLATES = {'index': None, 'tag': None, 'category': None, 'author': None}
