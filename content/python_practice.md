@@ -21,7 +21,7 @@ def add_student():
     students.append({"name": name, "score": score})
 ```
 
-完整代码放在 GitHub 上：[gds061020/python-practice](https://github.com/gds061020/python-practice)
+完整代码放在 GitHub 上：[gds061020/python_practice](https://github.com/gds061020/python_practice)
 ## 遇到的问题
 
 1.输入非数字时程序崩溃 → 用`try-except`解决
@@ -29,4 +29,3 @@ def add_student():
 2.删除学生时找不到对应姓名 → 遍历列表查找
 
 
-这样既记录了学习，又展示了代码，还用了 Git 链接，一举三得。
